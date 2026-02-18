@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Local Coffee Beans</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>Iloilo Coffee</h2>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="coffee-shops.html">Coffee Shops</a>
+            <a href="beans.html">Local Beans</a>
+            <a href="brewing.html">Brewing Guide</a>
+            <a href="types.html">Types</a>
+        </div>
+    </nav>
+</header>
+
+<section>
+    <h1>Local Coffee Beans</h1>
+
+    <input type="text" id="beanSearch" placeholder="Search beans..." onkeyup="searchBeans()">
+
+    <div class="grid" id="beanList"></div>
+</section>
+
+<footer>
+    <p>© 2026 Iloilo Coffee Web App</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script>
+    renderList(coffeeBeans, "beanList");
+</script>
+
+</body>
+</html>
