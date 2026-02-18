@@ -87,6 +87,54 @@ section {
     padding: 80px 100px;
 }
 
+/* ===== HERO BACKGROUND ===== */
+.hero {
+    height: 100vh; /* full viewport height */
+    background: url('images/iloilo-coffee-bg.jpg') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-overlay {
+    background: rgba(0,0,0,0.5); /* dark overlay for readability */
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero .back-btn {
+    background: var(--accent);
+    color: var(--dark);
+    padding: 14px 28px;
+    font-size: 16px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.hero .back-btn:hover {
+    background: var(--secondary);
+    color: white;
+    transform: translateY(-3px);
+}
+
+
 h1 {
     font-size: 36px;
     font-weight: 600;
