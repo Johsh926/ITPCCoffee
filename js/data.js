@@ -54,7 +54,7 @@ const coffeeBeans = [
 name:"Leon Arabica",
 variety:"Arabica",
 origin:"Leon, Iloilo",
-image:"https://source.unsplash.com/800x600/?arabica-coffee-beans"
+image:"https://images.unsplash.com/photo-1511920170033-f8396924c348"
 },
 {
 name:"Miagao Robusta",
@@ -72,7 +72,7 @@ image:"https://images.unsplash.com/photo-1461988625982-7e46a099bf4f"
 name:"Maasin Robusta",
 variety:"Robusta",
 origin:"Maasin, Iloilo",
-image:"https://source.unsplash.com/800x600/?robusta-coffee-beans"
+image:"https://images.unsplash.com/photo-1461988625982-7e46a099bf4f"
 },
 {
 name:"Igbaras Highland Coffee",
